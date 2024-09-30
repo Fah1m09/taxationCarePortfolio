@@ -12,16 +12,19 @@ const Hero = () => {
             <div className="w-full px-4">
               <div className="mx-auto max-w-[800px] text-center">
                 <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
-                  Tailored Solutions for Every Business Need!
+                  HASSLE FREE Accounts TAX & VAT Solutions of Bangladesh
                 </h1>
                 <p className="mb-12 text-base !leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg md:text-xl">
-                  Transform Your Business Landscape with Personalized IT
-                  Solutions Engineered to Tackle Any Challenge, Setting the
-                  Stage for Unprecedented Growth and Prosperity
+                  A consultancy firm on VAT, TAX registration & return
+                  processing, Trade license, Trade mark, IRC, ERC, Accountancy
+                  and Business advisory
                 </p>
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
-                  <Link href="contact" className="rounded-sm bg-primary px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80">
-                    Contact Us
+                  <Link
+                    href="contact"
+                    className="rounded-sm bg-primary px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
+                  >
+                    GET APPOINMENT
                   </Link>
                 </div>
               </div>

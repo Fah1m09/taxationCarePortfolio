@@ -27,7 +27,7 @@ const Footer = () => {
                   />
                 </Link>
                 <p className="mb-9 text-base leading-relaxed text-body-color dark:text-body-color-dark">
-                  Tailored Solutions for Every Business Need!
+                  HASSLE FREE Accounts TAX & VAT Solutions of Bangladesh
                 </p>
                 <div className="flex items-center">
                   <a
