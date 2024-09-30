@@ -10,21 +10,22 @@ const Footer = () => {
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-5/12">
               <div className="mb-12 max-w-[360px] lg:mb-16">
-                <Link href="/" className="mb-8 inline-block">
+                <Link href="/" className="mb-8 flex gap-4 items-center">
                   <Image
                     src="/images/logo/full-logo.svg"
                     alt="logo"
-                    className="w-full dark:hidden"
-                    width={140}
+                    className="w-[50px] dark:hidden"
+                    width={40}
                     height={30}
                   />
                   <Image
                     src="/images/logo/full-logo-light.svg"
                     alt="logo"
-                    className="hidden w-full dark:block"
-                    width={140}
+                    className="hidden w-[50px] dark:block"
+                    width={40}
                     height={30}
                   />
+                  <h3 className="text-2xl font-semibold">Taxation Care</h3>
                 </Link>
                 <p className="mb-9 text-base leading-relaxed text-body-color dark:text-body-color-dark">
                   HASSLE FREE Accounts TAX & VAT Solutions of Bangladesh
