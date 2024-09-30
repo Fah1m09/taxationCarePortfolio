@@ -1,0 +1,12 @@
+{
+  "git": {
+    "deploymentEnabled": {
+      "misc": false,
+      "Fixing_content_Home_page": false,
+      "about-page": false,
+      "services-page": false,
+      "contact": false,
+      "technology-links": false
+    }
+  }
+}
