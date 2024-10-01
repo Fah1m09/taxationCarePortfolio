@@ -23,31 +23,19 @@ const AboutSectionOne = () => {
         <div className="md:pb-20 lg:pb-28">
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
-              <SectionTitle
-                title="Why Choose Us"
-                paragraph="Choosing Excellence: Why Partnering with Us Sets You Up for Success."
-                mb="44px"
-              />
+              <SectionTitle title="Why Choose Us" paragraph=" " mb="44px" />
 
               <div
                 className="mb-12 max-w-[605px] lg:mb-0"
                 data-wow-delay=".15s"
               >
-                <div className="mx-[-12px] flex flex-wrap">
-                  <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Experience and Expertise" />
-                    <List text="Tailored Solutions" />
-                    <List text="Technical Proficiency" />
-                    <List text="Timely Delivery" />
-                  </div>
-
-                  <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Commitment to Quality" />
-                    <List text="Customer-Centric Approach" />
-                    <List text="Security and Compliance" />
-                    <List text="Reliable Support" />
-                  </div>
-                </div>
+                <p className="text-body-color">
+                  We value integrity, transparency, and education, striving to
+                  build lasting relationships based on trust. With a team of
+                  experienced professionals, we provide personalized services,
+                  including tax preparation, consulting, and advocacy, to
+                  navigate the ever-changing tax landscape.
+                </p>
               </div>
             </div>
 

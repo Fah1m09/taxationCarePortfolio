@@ -10,7 +10,7 @@ const Footer = () => {
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-5/12">
               <div className="mb-12 max-w-[360px] lg:mb-16">
-                <Link href="/" className="mb-8 flex gap-4 items-center">
+                <Link href="/" className="mb-8 flex items-center gap-4">
                   <Image
                     src="/images/logo/full-logo.svg"
                     alt="logo"
@@ -32,7 +32,7 @@ const Footer = () => {
                 </p>
                 <div className="flex items-center">
                   <a
-                    href="https://www.linkedin.com/company/otm-soln"
+                    href="https://www.linkedin.com/in/taxation-care-29a093296/"
                     aria-label="linkedin-link"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -48,7 +48,7 @@ const Footer = () => {
                     </svg>
                   </a>
                   <a
-                    href="https://www.facebook.com/OTMSoln/"
+                    href="https://www.facebook.com/profile.php?id=61566756293469&mibextid=ZbWKwL"
                     aria-label="facebook-link"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -67,7 +67,7 @@ const Footer = () => {
                       />
                     </svg>
                   </a>
-                  <a
+                  {/* <a
                     href="https://twitter.com/OTMSolution/"
                     aria-label="twitter-link"
                     target="_blank"
@@ -88,7 +88,7 @@ const Footer = () => {
                         fill="currentColor"
                       />
                     </svg>
-                  </a>
+                  </a> */}
                   {/* <a
                     href="/"
                     aria-label="social-link"

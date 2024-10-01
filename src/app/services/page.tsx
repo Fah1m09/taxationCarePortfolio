@@ -14,7 +14,7 @@ const ServicesPage = () => {
     <>
       <Breadcrumb
         pageName="Services"
-        description="Empowering Your Business with Comprehensive IT Solutions."
+        description="At Taxation Care, we offer complexities in tax regulations and financial planning meet expert guidance and strategic insights."
       />
       <ServicesSection />
     </>

@@ -22,24 +22,24 @@ const menuData: Menu[] = [
   {
     id: 4,
     title: "VAT",
-    path: "/services",
+    path: "/vat",
     newTab: false,
   },
   {
     id: 5,
     title: "TAX",
-    path: "/services",
+    path: "/tax",
     newTab: false,
   },
   {
     id: 6,
     title: "Customs",
-    path: "/services",
+    path: "/customs",
     newTab: false,
   },
   {
     id: 7,
-    title: "Our Clients",
+    title: "Services",
     path: "/services",
     newTab: false,
   },

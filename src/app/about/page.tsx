@@ -15,7 +15,7 @@ const AboutPage = () => {
     <>
       <Breadcrumb
         pageName="About Us"
-        description="Dynamic and forward-thinking IT company committed to delivering cutting-edge solutions tailored to meet the diverse needs of our clients."
+        description="Taxation Care is a consultant firm providing tax advice and assistance to individuals, businesses and organizations on various tax related matters. Their work typically involves preparing and submitting tax returns, researching tax laws, advising on tax planning, and representing clients in disputes with tax authorities. Also it includes training programs, consulting services and tools aimed at simplifying the tax filing process, ensuring compliance and maximizing potential refunds or benefits."
       />
       <WhoWeAreSection />
       <AboutSectionOne />

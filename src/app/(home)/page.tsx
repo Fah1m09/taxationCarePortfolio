@@ -1,9 +1,8 @@
 import AboutSectionOne from "@/components/About/AboutSectionOne";
-import AboutSectionTwo from "@/components/About/AboutSectionTwo";
-import Technologies from "@/components/Technologies";
 import ScrollUp from "@/components/Common/ScrollUp";
-import Services from "@/components/Services";
 import Hero from "@/components/Hero";
+import Services from "@/components/Services";
+import Technologies from "@/components/Technologies";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
