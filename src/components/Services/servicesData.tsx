@@ -13,8 +13,7 @@ const servicesData: Service[] = [
       </svg>
     ),
     title: "VAT",
-    paragraph:
-      "Create Personalized Software Solutions Aligned with Your Needs. Collaborate with us to design and execute unique software that meets your specifications and stands out from the crowd.",
+    paragraph: `<ul class="list-disc"><li>VAT Return</li><li>Price Declaration</li> <li>VAT Registration and Enlistment</li><li>Assist to implementing of VAT software</li><li>Compliance of VAT books, Accounts and VAT Audit</li><li>ADR</li><li>Deal VAT related litigation matters</li></ul> `,
   },
   {
     id: 5,
@@ -28,8 +27,7 @@ const servicesData: Service[] = [
       </svg>
     ),
     title: "Tax Registration & Return",
-    paragraph:
-      "We offer comprehensive ERP solutions designed to streamline and integrate your business processes across departments such as finance, human resources, hospital management, supply chain, manufacturing, and more.",
+    paragraph: `<ul class="list-disc"> <li>eTIN and eReturn  </li> <li>Withholding Tax Return</li> <li> Salary Return</li> <li>Employee Tax Filing Return </li> <li>Appeal and Tribunal hearing purpose </li> <li>Assist to preparing Accounts, Audit and implementing of Accounts software </li> <li>ADR</li></ul>`,
   },
   {
     id: 3,
@@ -55,7 +53,7 @@ const servicesData: Service[] = [
     ),
     title: "Customs",
     paragraph:
-      "We provide ultimate e-commerce solution as well as customizations for your e-commerce business. With our payment gateway integration feature, you can expand your reach and drive sales effectively in today's digital marketplace.",
+      "Taxation Care provides advice and guidance to their clients on customs regulations and procedures, best practices to ensure smooth customs clearances, and help businesses or individuals keep in compliance with the complex importing and exporting legal requirements and ordinances.",
   },
   {
     id: 2,
@@ -70,7 +68,7 @@ const servicesData: Service[] = [
     ),
     title: "Business Advisory",
     paragraph:
-      "We provide the tools necessary to turn raw data into valuable intelligence. Our Reporting and Analytics Management section equips you with the capabilities to drive informed decision-making.",
+      "Taxation Care helps improve business services through policies and standard operating procedures, process development and regulatory meetings.",
   },
   {
     id: 4,
@@ -101,7 +99,7 @@ const servicesData: Service[] = [
     ),
     title: "IRC & ERC",
     paragraph:
-      "Unlock the full potential of your online learning venture with our comprehensive E-Learning solutions. From robust platforms to tailored customizations, we empower your educational business to thrive in the digital realm.",
+      "Taxation Care efficiently helps in getting IRC certificate and renewing ERC and IRC every year.",
   },
   {
     id: 6,
@@ -116,7 +114,7 @@ const servicesData: Service[] = [
     ),
     title: "Trade Mark & Trade License",
     paragraph:
-      "We prioritize user-centric design principles to create intuitive and engaging interfaces that enhance the overall user experience",
+      "Taxation Care helps complete the entire process of trademark registration services. Also efficiently helps in getting Trade License and renewing license",
   },
 ];
 export default servicesData;
