@@ -9,7 +9,7 @@ const Services = () => {
         <div className="container">
           <SectionTitle
             title="Let us help you with your project"
-            paragraph="Your Vision, Our Commitment: Allow Us to Be Your Partner in Transforming Your Project Goals into Reality."
+            paragraph=""
             center
           />
 

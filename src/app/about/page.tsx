@@ -1,5 +1,4 @@
 import AboutSectionOne from "@/components/About/AboutSectionOne";
-import AboutSectionTwo from "@/components/About/AboutSectionTwo";
 import WhoWeAreSection from "@/components/About/WhoWeAreSection";
 import Breadcrumb from "@/components/Common/Breadcrumb";
 
@@ -20,7 +19,6 @@ const AboutPage = () => {
       />
       <WhoWeAreSection />
       <AboutSectionOne />
-      <AboutSectionTwo />
     </>
   );
 };
