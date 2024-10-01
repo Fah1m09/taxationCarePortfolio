@@ -11,7 +11,10 @@ export const metadata: Metadata = {
 const TrainingPage = () => {
   return (
     <>
-      <Breadcrumb pageName="Training" description="" />
+      <Breadcrumb
+        pageName="Training"
+        description="Join our training program and become an expert Taxationer"
+      />
       <Training />
     </>
   );

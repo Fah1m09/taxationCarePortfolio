@@ -50,7 +50,7 @@ const Training = () => {
                 Taka
               </p>
             </div>
-            <div className="mt-5 flex gap-6 rounded-sm bg-gray-light px-8 py-8 dark:bg-gray-dark sm:px-10 md:px-[50px] md:py-[40px] xl:p-[50px] 2xl:px-[70px] 2xl:py-[60px]">
+            <div className="mt-5 flex gap-6 rounded-sm bg-gray-light px-4 py-4 dark:bg-gray-dark sm:px-10 md:px-[20px] md:py-[30px] xl:p-[30px] 2xl:px-[40px] 2xl:py-[40px]">
               <div>
                 <Image
                   src="/images/instructor.jpg"
