@@ -1,15 +1,15 @@
+import { AppWrapper } from "@/app/AppWrapper";
+import GoogleAnalytics from "@/components/Scripts/GoogleAnalytics";
+import { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "node_modules/react-modal-video/css/modal-video.css";
 import "../styles/index.css";
-import GoogleAnalytics from "@/components/Scripts/GoogleAnalytics";
-import { AppWrapper } from "@/app/AppWrapper";
-import { Metadata } from "next";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Taxation Care",
-  description: "Tailored Solutions for Every Business Need!",
-  metadataBase: new URL("https://otm-solutions.vercel.app/"),
+  description: "HASSLE FREE Accounts TAX & VAT Solutions",
+  metadataBase: new URL("https://taxationcare.netlify.app/"),
   // other metadata
 };
 

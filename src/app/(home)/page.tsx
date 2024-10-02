@@ -7,8 +7,8 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Taxation Care",
-  description: "Tailored Solutions for Every Business Need!",
-  metadataBase: new URL("https://otm-solutions.vercel.app/"),
+  description: "HASSLE FREE Accounts TAX & VAT Solutions",
+  metadataBase: new URL("https://taxationcare.netlify.app/"),
   // other metadata
 };
 
