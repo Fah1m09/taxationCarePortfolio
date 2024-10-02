@@ -1,4 +1,5 @@
 import Breadcrumb from "@/components/Common/Breadcrumb";
+import Vat from "@/components/Vat";
 
 import { Metadata } from "next";
 
@@ -15,6 +16,7 @@ const VatPage = () => {
         pageName="VAT"
         description=""
       />
+      <Vat />
     </>
   );
 };

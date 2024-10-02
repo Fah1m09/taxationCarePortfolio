@@ -1,4 +1,5 @@
 import Breadcrumb from "@/components/Common/Breadcrumb";
+import Tax from "@/components/Tax";
 
 import { Metadata } from "next";
 
@@ -15,6 +16,7 @@ const TaxPage = () => {
         pageName="Tax"
         description=""
       />
+      <Tax/>
     </>
   );
 };

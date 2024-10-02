@@ -1,4 +1,5 @@
 import Breadcrumb from "@/components/Common/Breadcrumb";
+import Customs from "@/components/Customs";
 
 import { Metadata } from "next";
 
@@ -12,6 +13,7 @@ const CustomsPage = () => {
   return (
     <>
       <Breadcrumb pageName="Customs" description="" />
+      <Customs />
     </>
   );
 };
