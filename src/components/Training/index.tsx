@@ -6,7 +6,7 @@ const Training = () => {
     <section className="relative z-10 py-16 md:py-20 lg:py-28">
       <div className="container">
         <div className="-mx-4 flex flex-wrap">
-          <div className="w-full px-4 space-y-12">
+          <div className="w-full space-y-12 px-4">
             <div className="flex flex-col gap-y-4 rounded-sm ">
               <div className="flex items-center gap-4">
                 <svg
@@ -27,13 +27,18 @@ const Training = () => {
                   />
                 </svg>
 
-                <p className="text-sm">Online Class (Zoom)</p>
+                <p className="text-sm">Online Class</p>
               </div>
               <h3 className="text-[26px] font-semibold">
-                ITP Exam Preparation Course
+                ITP Exam Preparation Course - 2024
               </h3>
               <p className="text-body-color">
-                Class starting from 4th October (Friday & Saturday)
+                Experimental classes start from 4th October (Friday & Saturday){" "}
+                <br />
+                Course classes will start from 11 October 2024. Every Friday and
+                Saturday during the week.
+                <br /> Subject wise class- <b>8 </b> Review Class- <b>1 </b>{" "}
+                Booster Class- <b>3</b>
               </p>
               <p>
                 Time:{"  "}
@@ -50,10 +55,10 @@ const Training = () => {
                 Taka
               </p>
             </div>
-            <div className="mt-5 flex gap-6 rounded-sm bg-gray-light px-4 py-4 dark:bg-gray-dark sm:px-10 md:px-[20px] md:py-[30px] xl:p-[30px] 2xl:px-[40px] 2xl:py-[40px]">
+            <div className="mt-5 gap-6 rounded-sm bg-gray-light px-4 py-4 dark:bg-gray-dark sm:px-10 md:px-[20px] md:py-[30px] lg:flex xl:p-[30px] 2xl:px-[40px] 2xl:py-[40px]">
               <div>
                 <Image
-                  src="/images/instructor.jpg"
+                  src="/images/instructor.png"
                   alt="about-image"
                   width={300}
                   height={100}
@@ -71,16 +76,17 @@ const Training = () => {
                 </p>
               </div>
             </div>
-            <div className="mt-6 lg:mt-[60px] flex gap-4">
+            <div className="mt-6 flex flex-col gap-4 lg:mt-[60px] lg:flex-row lg:items-center lg:justify-between">
               <h3 className="text-3xl font-bold">
-                Click here to start your course
+                Click here to confirm your seat
               </h3>
               <a
                 target="_blank"
                 href="https://docs.google.com/forms/d/e/1FAIpQLSeG8xXDV2Q-LEtVJBd716TQMDeToqlRCRyIycuGjyQDAcmpSA/viewform?usp=send_form"
-                className="rounded-xl border px-4 py-1"
               >
-                GET COURSE
+                <span className="rounded-xl border-2 border-blue-400 bg-primary px-4 py-1 text-white">
+                  GET COURSE
+                </span>
               </a>
             </div>
           </div>

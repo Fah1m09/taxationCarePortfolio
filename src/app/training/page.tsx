@@ -13,7 +13,7 @@ const TrainingPage = () => {
     <>
       <Breadcrumb
         pageName="Training"
-        description="Join our training program and become an expert Taxationer"
+        description="A training programme will start from 11th October"
       />
       <Training />
     </>
