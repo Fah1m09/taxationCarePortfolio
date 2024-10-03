@@ -1,6 +1,6 @@
-import { Technology } from "@/types/technology";
+import { Clients } from "@/types/client";
 
-const SingleTechnology = ({ technology }: { technology: Technology }) => {
+const SingleTechnology = ({ technology }: { technology: Clients }) => {
   const { href, image, imageLight, name } = technology;
 
   return (
@@ -11,7 +11,7 @@ const SingleTechnology = ({ technology }: { technology: Technology }) => {
         rel="nofollow noreferrer"
         className="relative h-10 w-full opacity-70 transition hover:opacity-100 dark:opacity-60 dark:hover:opacity-100"
       >
-        <h3>{ name }</h3>
+        <h3>{name}</h3>
       </a>
     </div>
   );
